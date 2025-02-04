@@ -26,6 +26,9 @@ which means 75% LUNC and 25% USTC will be burned.
 - **UpdateTaxRate**: Admin can update the tax rate to change the percent of lunc swapped to ustc.
 
 ## Deployment
+the contract is deployed and live at: https://finder.terra.money/classic/address/terra1jyla4gwy3qm9ujpglnf2k250jn9ehyej376qccu3vzptl3jpdk0s4uwmc0
+
+to build yourself follow this:
 
 run the command 
 cargo wasm
