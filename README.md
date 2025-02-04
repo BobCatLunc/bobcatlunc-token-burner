@@ -9,17 +9,17 @@ Same way it can also receive USTC, swap part of it LUNC and then burn both asset
       Execute contract with json data
   {"receive":{}}
   and send the LUNC you wish to burn.
-  The contract will swap a part of the LUNC based on the swap percent predifined into USTC
+  The contract will swap a part of the LUNC based on the tax_rate predifined into USTC
   from LUNC/USTC pool and then send both LUNC AND USTC to burn address.
 
 - **Burn USTC**:
       Execute contract with json data
   {"receive":{}}
   and send the USTC you wish to burn.
-  The contract will swap a part of the USTC based on the swap percent predifined into LUNC
+  The contract will swap a part of the USTC based on the tax_rate predifined into LUNC
   from LUNC/USTC pool and then send both LUNC AND USTC to burn address.
 
-the swap_percent is set to 25%.
+the tax_rate is set to 25%.
 which means 75% LUNC and 25% USTC will be burned.
 
 - **UpdateSwapPoolAddress**: Admin can update the swap pool address.
